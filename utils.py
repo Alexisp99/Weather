@@ -27,4 +27,4 @@ def drop_down_menu(value = ""):
                           (value, "demain", "après demain"))
     #some_value devra être une valeur que l'api transmettra
     some_value = option
-    return st.write(some_value)
+    return some_value
