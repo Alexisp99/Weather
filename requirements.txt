@@ -1,4 +1,9 @@
+numpy
+pandas
+Pillow
+pydeck
+pytest
+python-dotenv
+Requests
 streamlit
 pytest-cov
-pandas
-numpy
