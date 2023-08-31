@@ -1,10 +1,3 @@
-import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pickle
 import streamlit as st
 from utils import *
 
@@ -25,12 +18,11 @@ with col1 :
     
     text_input()
     btn_meteo()
+ 
     
-    
-
 with col2 :
     
     world_map()
     
 
-
+drop_down_menu()
