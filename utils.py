@@ -9,7 +9,7 @@ def world_map():
 
     world = st.map(df)
     
-    return world
+    return type(world)
 
 
 
@@ -21,10 +21,10 @@ def btn_meteo():
     btn_meteo = st.button("Méteo")
     return btn_meteo
 
-def drop_down_menu():
+def drop_down_menu(value = ""):
     
     option = st.selectbox("Selectionner la date du jour",
-                          ("Aujourd'hui", "demain", "après demain"))
+                          (value, "demain", "après demain"))
     #some_value devra être une valeur que l'api transmettra
-    some_value = "demain"
-    st.write(some_value)
+    some_value = option
+    return st.write(some_value)
